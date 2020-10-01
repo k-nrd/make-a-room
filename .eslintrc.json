@@ -11,13 +11,13 @@
     "ecmaVersion": 12
   },
   "rules": {
-    "no-unused-vars": [
-      "error", 
-      { 
-        "argsignorepattern": "^_",
-        "varsignorepattern": "^_"
-      }
-    ],
+		"no-unused-vars": [
+			"error", 
+			{ 
+				"argsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_"
+			}
+		],
     "indent": ["error", 2]
   }
 }

@@ -1,5 +1,5 @@
 // @ts-check
 
-import half from './src/half.js'
+const half = require('./src/half.js')
 
-export default half
+module.exports = half
