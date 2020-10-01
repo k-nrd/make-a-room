@@ -1,0 +1,41 @@
+{
+  "name": "@k-onrad/nodejs-package",
+  "version": "0.0.1",
+  "description": "Node.js boilerplate package",
+  "bin": {
+    "hexlet": "bin/nodejs-package.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-onrad/nodejs-package.git"
+  },
+  "author": "Gustavo Konrad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-onrad/nodejs-package/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/k-onrad/nodejs-package#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@jest/globals": "^26.4.2",
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2"
+  }
+}

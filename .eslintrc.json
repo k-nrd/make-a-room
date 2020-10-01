@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "no-unused-vars": [
+      "error", 
+      { 
+        "argsignorepattern": "^_",
+        "varsignorepattern": "^_"
+      }
+    ],
+    "indent": ["error", 2]
+  }
+}
