@@ -15,3 +15,30 @@ $ make install
 ```sh
 $ make test
 ```
+
+
+## Example room
+Description
+```
+The living room is worn and messy. It has two doors to your left.
+Pizza boxes and empty beer cans litter the floor. An old sofa faces a small CRT TV, tuned to a dead channel.
+The carpet is dirty and smells. A broken standing lamp has fallen to the floor.
+```
+
+Structure
+```
+(Room 
+  (Room
+    (Object Bed)
+    (Object Nightstand)) 
+  (Room 
+    (Object Sink)
+    (Object Shower)
+    (Object Toilet)) 
+  (Object Pizza)
+  (Object Beers) 
+  (Object Sofa) 
+  (Object TV) 
+  (Object Carpet) 
+  (Object Lamp))
+```

@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "build:parser": "pegjs room-lang.pegjs"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,9 @@
     "testEnvironment": "node"
   },
   "homepage": "https://github.com/k-onrad/nodejs-package#readme",
-  "dependencies": {},
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
   "devDependencies": {
     "@jest/globals": "^26.4.2",
     "eslint": "^7.9.0",

@@ -1,0 +1,3 @@
+spot 
+  = room
+  / thing
